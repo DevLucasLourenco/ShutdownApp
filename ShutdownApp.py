@@ -22,8 +22,20 @@ master.geometry('120x130')
 
 master.configure(bg='light grey')
 
-Button(master, text='Desligar', command=desligar).place(x=20,y=20)
-Button(master, text='Reiniciar', command=reiniciar).place(x=19,y=50)
-Button(master, text='Logoff', command=logoff).place(x=32,y=80)
+
+
+Button(master, 
+       text='Desligar', 
+       command=desligar).place(x=20,y=20)
+
+Button(master, 
+       text='Reiniciar', 
+       command=reiniciar).place(x=19,y=50)
+
+Button(master, 
+       text='Logoff', 
+       command=logoff).place(x=32,y=80)
+
+
 
 mainloop()
